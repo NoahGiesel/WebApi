@@ -1,0 +1,29 @@
+body{
+  background: #999;
+}
+
+
+form {
+  position: absolute;
+  top: 40%;
+  left: 35%;
+  font-size: 22px;
+}
+
+input {
+  padding: 10px;
+}
+
+button{
+  padding: 10px 15px;
+  background: blue;
+  color: white;
+  border: none;
+  border-radius: 7px;
+}
+
+button:hover{
+  cursor: pointer;
+  background: white;
+  color : blue;
+ }
