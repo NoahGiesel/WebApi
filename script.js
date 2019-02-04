@@ -1,18 +1,14 @@
- var firstname = document.getElementById('name');
+ var primo = document.getElementById('name');
 
- var surname = document.getElementById('surname');
+ var secondo = document.getElementById('surname');
 
 
 function showContent(){
-
     var userData = [];
-
-
-    userData.push(firstname.value);
-    userData.push(surname.value);
-
-
+    userData.push(primo.value);
+    userData.push(secondo.value);
     console.log(userData);
+
 
 
 }
